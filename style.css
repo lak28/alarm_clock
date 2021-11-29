@@ -1,0 +1,152 @@
+/* GLobal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  select {
+    appearance: none;
+    background-color:yellowgreen;
+    width: 60px;
+    padding: 0.8rem;
+    font-weight: bold;
+    border: none;
+    margin-right: 2rem;
+    cursor: pointer;
+    color: #0E141B;
+    border-color: black;
+    text-align: center;
+    border-radius:15px;
+  }
+  
+  
+  /* End GLobal Styles */
+  
+  .main-container {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color:orange;
+  }
+  
+  .clock-container {
+   
+    margin-left: 30px;
+    padding: 2rem;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 950px;
+    height:500px;
+    display: flex;
+    background-color:yellow;
+    justify-content: center;
+    border-radius: 50px;
+  
+  }
+  
+  .current-time {
+    margin-top: 100px;
+    font-size: 8rem;
+    color:red;
+    margin-bottom: 100px;
+    margin-top: -100px;
+  }
+  
+  .alarm-form {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: -50px;
+    margin-left: 200px;
+  }
+  
+  .submit-button {
+    border-color: black;
+    width: 100px;
+    border: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 400px;
+    outline: none;
+    border: none;
+    background-color:saddlebrown;
+    cursor: pointer;
+ 
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .set-alarm-container {
+    width: 100%;
+  }
+  
+  .set-alarm-container  {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .set-alarm-container-title{
+  margin-bottom: 1rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+  
+  .alarm {
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    align-items: center;
+  
+  }
+  .alarm{
+    border-radius: 2rem;
+    background-color: rgba(230, 13, 13, 0.918);
+    font-weight: bold;
+    color: wheat;
+    font-size:xx-medium;
+    
+  }
+  .delete-alarm {
+    border-radius: 2rem;
+    width: 50px;
+    height: 20px;
+    background-color: rgba(230, 13, 13, 0.918);
+    font-weight: bold;
+    color: wheat;
+    font-size:xx-medium;
+    outline: none;
+    border: none;
+    background-color:blue;
+    cursor: pointer;
+    margin-left: 800px;
+   
+ 
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .time {
+    color: #0E141B;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+ 
+  
+  .page-title{
+    background-color: #0E141B;
+    align-items: center;
+    text-align: center;
+    color: wheat;
+    
+  }
+
+  
+ 
